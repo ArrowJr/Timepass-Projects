@@ -1,0 +1,23 @@
+##Given a range [m,n] , print the count of numbers having distinct digits. For eg, 12 is said to have all digits distinct while 121 is not.
+def distinct_digit(num):
+    n = None
+    flag = None
+    while num > 0:
+        if n == num % 10:
+            return False
+            break
+        else:
+            n = num % 10
+            num //=10
+
+    if num == 0:
+        return True
+
+
+
+m = 10
+n = 20
+count = 0
+for i in range(m,n+1):
+    if distinct_digit(i):
+        print(i)
