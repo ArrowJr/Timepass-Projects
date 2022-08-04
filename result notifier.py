@@ -23,7 +23,7 @@ def tell_me():
     message= 'Results are out!'
     nf.notify(title= title,message= message,app_icon = None,timeout= 10,toast=False)
 
-print('month will be 08/2022 and Exam No. is 1T01028')
+print('For example: Month will be 08/2022 and Exam No. is 1T01028')
 month = input('Enter in the following format only: MM/YYYY:  ')
 prog_id = input('Enter your Exam No. printed on your hall ticket:  ')
 minutes = int(input("Enter the time interval in between to check your results in minutes"))
