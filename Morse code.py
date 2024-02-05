@@ -54,6 +54,7 @@ message = input('Enter the text you want to encode in Morse Code: ')
 temp = encrypt(message.lower())
 print(temp)
 print(decrypt(temp))
+print('Welcome')
 
 
 
